@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "concurrently \"node ./backend/server.mjs\" \"vite\"",
-    "build": "concurrently \"node ./backend/server.mjs\" \"vite build\"",
+    "build": "vite build && node ./backend/server.mjs",
     "lint": "eslint .",
     "preview": "vite preview"
   },
