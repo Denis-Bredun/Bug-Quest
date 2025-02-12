@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "concurrently \"node ./backend/server.mjs\" \"vite\"",
-    "build": "node ./src/services/db_initialization.js && vite build",
+    "build": "concurrently \"node ./backend/server.mjs\" \"vite build\"",
     "lint": "eslint .",
     "preview": "vite preview"
   },
