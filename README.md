@@ -54,7 +54,7 @@ Bug Quest — це веб-платформа, яка дозволяє корис
    Або, якщо ви хочете клонувати за певним шляхом:
 
    ```bash
-   git clone https://github.com/Denis-Bredun/Test-Task.git Абсолютний_Шлях_До_Папки
+   git clone https://github.com/Denis-Bredun/Bug-Quest.git Абсолютний_Шлях_До_Папки
    ```
    
 4. **Перейдіть до папки проекту**:
