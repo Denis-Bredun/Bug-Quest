@@ -1,5 +1,5 @@
 const CLIENT_ID = import.meta.env.VITE_GOOGLE_CLIENT_ID;
-const REDIRECT_URI = "http://localhost:5173/callback";  
+const REDIRECT_URI = "https://bug-quest.onrender.com/callback";
 const AUTH_ENDPOINT = "https://accounts.google.com/o/oauth2/v2/auth";
 const USER_INFO_ENDPOINT = "https://www.googleapis.com/oauth2/v2/userinfo";
 
